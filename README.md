@@ -7,7 +7,8 @@ document.querySelector() selects the first element on the page that matches a CS
 3) What is an event and event handler? Give an example of each.
 An event is something that happens in the browser, like a button click. An event handler is a function that runs when that event occurs. For example, you can set up a button to show an alert when clicked like this:
 
-```button.addEventListener('click', function() {
+```
+button.addEventListener('click', function() {
   alert('Button was clicked!');
 });
 ```
